@@ -36,7 +36,7 @@ export default function Sidebar() {
   ]
 
   return (
-    <aside className="w-56 bg-white border-r border-gray-200 h-screen overflow-y-auto">
+    <aside className="lg:col-span-2 hidden lg:block bg-white border-r border-gray-200 h-screen overflow-y-auto">
       <div className="p-4">
         {sidebarItems.map((item, index) => {
           const Icon = item.icon
