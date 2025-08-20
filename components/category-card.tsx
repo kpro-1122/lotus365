@@ -18,7 +18,7 @@ export default function CategoryCard({ name, color, size }: CategoryCardProps) {
       <img
         src={name}
         alt="gifs"
-        className="object-cover max-w-full "
+        className="object-cover max-w-full max-sm:h-full "
       />
     </div>
   );

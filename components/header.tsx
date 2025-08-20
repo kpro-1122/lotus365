@@ -36,17 +36,17 @@ export default function Header() {
   }, [])
 
   return (
-    <header className="bg-[#1E8067] text-white px-6 py-8">
+    <header className="bg-[#1E8067] text-white px-6 sm:py-8 py-4">
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         <div className="flex items-center gap-4">
           <Image src={"/logo.jpg"} width={100} height={100} alt="logo" />
-          <div className="text-sm opacity-90">{dateTime}</div>
+          <div className="text-sm opacity-90 hidden sm:block">{dateTime}</div>
         </div>
         <div className="flex items-center gap-2">
-          <Button variant="ghost" className="text-white hover:bg-[#1E8067]">
+          <Button variant="ghost" className="text-black hover:bg-[#1E8067] bg-yellow-300 rounded-none ">
             Login
           </Button>
-          <Button variant="ghost" className="text-white hover:bg-[#1E8067]">
+          <Button variant="ghost" className="text-black bg-white rounded-none hover:bg-[#1E8067]">
             Sign up
           </Button>
         </div>
