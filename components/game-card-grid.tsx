@@ -82,7 +82,7 @@ export default function MGameCard() {
           <img
             src={category.bgImage}
             alt={category.title}
-            className="w-full object-cover rounded-sm"
+            className="w-full object-cover rounded-sm "
           />
 
           {/* Overlay */}
