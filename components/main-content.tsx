@@ -6,6 +6,7 @@ import MGameCard from "./game-card-grid"
 import CricketTable from "./cricket-table"
 import FootballTable from "./football-table"
 import TennisTable from "./tennis-table"
+import ExchangeGames from "./exchange-games"
 
 
 
@@ -18,8 +19,10 @@ export default function MainContent() {
       <MGameCard/>
       <InPlaySection />
       <CricketTable/>
+      <ExchangeGames/>
       <FootballTable/>
       <TennisTable/>
+      
     </main>
   )
 }
